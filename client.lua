@@ -20,10 +20,6 @@ Citizen.CreateThread(function()
 	end
 end)
 
-Citizen.CreateThread(function()
-    SetWeaponDamageModifier(`WEAPON_PISTOL`, 0.1)
-end)
-
 if Config.Marker then
 	Citizen.CreateThread(function()
 		local coords = Config.SpawnVeh
